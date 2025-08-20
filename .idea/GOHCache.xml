@@ -72,14 +72,14 @@
         <entry key="file://$PROJECT_DIR$/pkg/logtime.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755675490280" />
+              <option name="lastModified" value="1755679420731" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/record.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755678883514" />
+              <option name="lastModified" value="1755679437449" />
             </ScannedPath>
           </value>
         </entry>
@@ -99,6 +99,27 @@
                   <option value="LumberjackClient" />
                 </list>
               </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://D:/go/GOPATH/pkg/mod/github.com/zhangcook/zap_log@v0.0.0-20250820082135-997319c5fb9a/record.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755679031502" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://D:/go/GOPATH/src/bargain/cmd/main.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755679182541" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://D:/go/GOPATH/src/bargain/pkg/zao.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755679166632" />
             </ScannedPath>
           </value>
         </entry>

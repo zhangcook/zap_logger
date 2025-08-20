@@ -3,15 +3,20 @@ package zap_log
 import (
 	"fmt"
 	"github.com/natefinch/lumberjack"
-	"github.com/zhangcook/zap_log/config"
-	"github.com/zhangcook/zap_log/pkg"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 	"os"
+	"time"
 )
 
-func RecordTime(address string) {
-	LogTime := pkg.LogTime()
+func LogTime() string {
+	format := time.Now().Format(time.DateTime)
+	sprintf := fmt.Sprintf("%v", format)
+	return sprintf[:10]
+}
+
+func RecordTime(address string) *zap.Logger {
+	LogTime := LogTime()
 	// 设置 lumberjack 日志轮转配置
 	FilenameInfo := fmt.Sprintf("%v/%v-info/%v-info.log", address, LogTime, LogTime)
 	FilenameWarn := fmt.Sprintf("%v/%v-warn/%v-warn.log", address, LogTime, LogTime)
@@ -65,8 +70,9 @@ func RecordTime(address string) {
 	core := zapcore.NewTee(infoCore, warnCore, errorCore, consoleCore)
 
 	// 创建 logger
-	config.Logger = zap.New(core, zap.AddCaller())
-	defer config.Logger.Sync()
+	Logger := zap.New(core, zap.AddCaller())
+	defer Logger.Sync()
+	return Logger
 }
 
 // 获取日志写入器

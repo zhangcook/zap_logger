@@ -1,4 +1,4 @@
-module github.com/zhangcook/zap_log
+module github.com/zhangcook/zap_logger
 
 go 1.24
 
