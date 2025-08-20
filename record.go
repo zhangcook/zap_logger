@@ -1,4 +1,4 @@
-package record_time
+package zap_log
 
 import (
 	"fmt"
