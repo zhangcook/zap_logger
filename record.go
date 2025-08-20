@@ -3,11 +3,11 @@ package zap_log
 import (
 	"fmt"
 	"github.com/natefinch/lumberjack"
+	"github.com/zhangcook/zap_log/config"
+	"github.com/zhangcook/zap_log/pkg"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 	"os"
-	"zap_log/config"
-	"zap_log/pkg"
 )
 
 func RecordTime(address string) {

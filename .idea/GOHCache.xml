@@ -44,7 +44,7 @@
         <entry key="file://$PROJECT_DIR$/../dom/main2.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755677198601" />
+              <option name="lastModified" value="1755678824083" />
             </ScannedPath>
           </value>
         </entry>
@@ -58,7 +58,7 @@
         <entry key="file://$PROJECT_DIR$/config/global.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755675720243" />
+              <option name="lastModified" value="1755678882620" />
             </ScannedPath>
           </value>
         </entry>
@@ -73,6 +73,13 @@
           <value>
             <ScannedPath>
               <option name="lastModified" value="1755675490280" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/record.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755678883514" />
             </ScannedPath>
           </value>
         </entry>
