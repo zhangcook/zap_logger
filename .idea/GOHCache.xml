@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GoORMHelperCache">
+    <option name="schemaMapping">
+      <map>
+        <entry key="CustomError">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/../dom/main1.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="LumberjackClient">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/config/config.go" />
+              <option value="file://$PROJECT_DIR$/uniltt/zap.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="lumberjack">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/config/config.go" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="scannedPathMapping">
+      <map>
+        <entry key="file://$PROJECT_DIR$/../dom/main1.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755676100794" />
+              <option name="schema">
+                <list>
+                  <option value="CustomError" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/config/config.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755675296506" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/config/global.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755675720243" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/main.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755676402054" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/pkg/logtime.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755675490280" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/record_time/record.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755676361426" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/uniltt/zap.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755675326782" />
+              <option name="schema">
+                <list>
+                  <option value="LumberjackClient" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="tableStructMapping">
+      <map>
+        <entry key="custom_error" value="CustomError" />
+        <entry key="lumberjack_client" value="LumberjackClient" />
+      </map>
+    </option>
+    <option name="lastTimeChecked" value="1755674782522" />
+  </component>
+</project>
